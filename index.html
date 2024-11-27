@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="undo">
+            <img src="./assets/undo-icon.png" alt="Undo Icon" class="icon">
+            <h3>Undo</h3>
+        </div>
+        
+        <div class="redo">
+            <img src="./assets/redo-icon.png" alt="Redo Icon" class="icon">
+            <h3>Redo</h3>
+        </div>
+    </div>
+
+    <div class="canvas-container"></div>
+
+    <div class="controls">
+        <label>Font</label>
+        <select id="fontSelect">
+            <option value="Arial">Arial</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+        </select>
+        <div class="plusminus">
+          <button id="increaseFont" style="padding-right: 9px;">+</button>
+          <input  value="16">
+          <button id="decreaseFont" style="margin-bottom: 3px;">-</button>
+        </div>
+        <button id="boldBtn">
+          <img src="./assets/bold.png" alt="bold" style="width: 15px;">
+        </button>
+        <button id="italicBtn">
+          <img src="./assets/italic.png" alt="italic">
+        </button>
+        <button id="underlineBtn">
+          <img src="./assets/underline.jpg" alt="underline">
+        </button>
+    </div>
+    <div class="addText" >
+      <div class="add-textt">
+        <img src="./assets/add-text.png" alt="Add Text Icon">
+        <h4>Add Text</h4>
+      </div>
+    </div>        
+      
+
+
+    <script src="script.js"></script>
+</body>
+</html>
